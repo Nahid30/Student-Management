@@ -1,7 +1,26 @@
 import React from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
 
 const StudentDetails = ({ student }) => {
-  const { name, img, email, address, phone, gender, birth } = student;
+  const { _id, name, img, email, address, phone, gender, birth } = student;
+
+
+  const handleDelete = id => {
+    const proceed = window.confirm('Are you sure You want to Delete?')
+    if (proceed) {
+        const url = `http://localhost:5000/student/${id}`
+        fetch(url, {
+            method: 'DELETE'
+        })
+            .then(res => res.json())
+            .then(data => {
+                toast.success('Student Deleted Successfully');
+                console.log(data)
+            })
+    }
+}
 
 
 
@@ -24,7 +43,7 @@ const StudentDetails = ({ student }) => {
             <p>Gender: {gender}</p>
             <p>Date of Birth: {birth}</p>
             <div class="card-actions justify-end">
-              <button class="btn btn-primary btn-sm btn-outline">Delete</button>
+              <button onClick={() => handleDelete(_id)} class="btn btn-primary btn-sm btn-outline">Delete</button>
             </div>
           </div>
         </div>

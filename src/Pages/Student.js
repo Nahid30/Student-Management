@@ -71,26 +71,6 @@ const Student = () => {
        console.log('imgbb', result)
     });
 
-
-    // POST method for add new student 
-    // const url = `http://localhost:5000/student`
-    // fetch(url, {
-    //     method: 'POST',
-    //     headers: {
-    //         'content-type': 'application/json'
-    //     },
-    //     body: JSON.stringify(data)
-    // })
-    //     .then(res => res.json())
-    //     .then(result => {
-    //         if(result){
-    //             toast.success('Student Added Successfully');
-    //             reset();
-    //         }
-    //         else{
-    //             toast.error('Failed to add Student');
-    //         }
-    //     });
         
 
 
