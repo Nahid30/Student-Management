@@ -17,7 +17,7 @@ const Student = () => {
   const [isOpen, setIsOpen] = useState(false);
     const getData = () =>{
         setLoading(true);
-        fetch("https://student-management-technoboot.herokuapp.com/student")
+        fetch("https://piscine-chocolatine-25371.herokuapp.com/student")
         .then(res => res.json())
         .then(data => {
             setStudentData(data);
@@ -64,7 +64,7 @@ const Student = () => {
             }
             
             //POST
-            const url = `https://student-management-technoboot.herokuapp.com/student`
+            const url = `https://piscine-chocolatine-25371.herokuapp.com/student`
             fetch(url, {
                 method: 'POST',
                 headers: {

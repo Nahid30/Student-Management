@@ -19,7 +19,7 @@ const StudentDetails = ({ student, getData , setLoading}) => {
     const proceed = window.confirm('Are you sure You want to Delete?')
     if (proceed) {
         setLoading(true);
-        const url = `https://student-management-technoboot.herokuapp.com/student/${id}`
+        const url = `https://piscine-chocolatine-25371.herokuapp.com/student/${id}`
         fetch(url, {
             method: 'DELETE'
         })
@@ -63,7 +63,7 @@ const StudentDetails = ({ student, getData , setLoading}) => {
                 }
                 
                 // PUT 
-                const url = `https://student-management-technoboot.herokuapp.com/student/${_id}`
+                const url = `https://piscine-chocolatine-25371.herokuapp.com/student/${_id}`
             fetch(url, {
                 method: 'PUT',
                 headers: {
