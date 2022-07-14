@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Routes } from "react-router-dom";
+import Student from "./Pages/Student";
 
 function App() {
   return (
-    <div className="App">
-      <h2>mama</h2>
+    <div>
+      <Routes>
+        <Route path="/" element={<Student />} />
+      </Routes>
     </div>
   );
 }

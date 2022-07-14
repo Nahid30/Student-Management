@@ -1,0 +1,86 @@
+[
+    {
+      "_id": "1",
+      "name": "Alvin Mason",
+      "img": "https://randomuser.me/api/portraits/men/97.jpg",
+      "email": "alvin@dibbert.com",
+      "gender": "male",
+      "address": "india",
+      "phone": "3645466781563",
+      "birth": "15.12.2002"
+    },
+    {
+      "_id": "2",
+      "name": "Ava Rogers",
+      "img": "https://randomuser.me/api/portraits/men/1.jpg",
+      "email": "ava@dibbert.com",
+      "gender": "male",
+      "address": "india",
+      "phone": "3645491648232",
+      "birth": "26.06.2001"
+    },
+    {
+      "_id": "3",
+      "name": "Constance Gilbert",
+      "img": "https://randomuser.me/api/portraits/men/14.jpg",
+      "email": "constance@dibbert.com",
+      "gender": "male",
+      "address": "india",
+      "phone": "7045465491764",
+      "birth": "13.11.2004"
+    },
+    {
+      "_id": "4",
+      "name": "Erik Schmidt",
+      "img": "https://randomuser.me/api/portraits/women/72.jpg",
+      "email": "erik@dibbert.com",
+      "gender": "female",
+      "address": "india",
+      "phone": "3567465495123",
+      "birth": "16.09.2002"
+    },
+    {
+      "_id": "5",
+      "name": "Danielle Flores",
+      "img": "https://randomuser.me/api/portraits/women/82.jpg",
+      "email": "danielle@dibbert.com",
+      "gender": "female",
+      "address": "india",
+      "phone": "3643915486232",
+      "birth": "19.08.2004"
+    },
+    {
+      "_id": "6",
+      "name": "Daniel Steward",
+      "img": "https://randomuser.me/api/portraits/men/51.jpg",
+      "email": "steward@dibbert.com",
+      "gender": "male",
+      "address": "india",
+      "phone": "3645465486232",
+      "birth": "11.05.2001"
+    },
+    {
+      "_id": "7",
+      "name": "Terrance Jackson",
+      "img": "https://randomuser.me/api/portraits/men/32.jpg",
+      "email": "terrance@dibbert.com",
+      "gender": "male",
+      "address": "india",
+      "phone": "8545465456232",
+      "birth": "12.03.2002"
+    },
+    {
+      "_id": "8",
+      "name": "Georgia James",
+      "img": "https://randomuser.me/api/portraits/women/90.jpg",
+      "email": "james@dibbert.com",
+      "gender": "female",
+      "address": "india",
+      "phone": "0545465451232",
+      "birth": "22.06.2001"
+    }
+  ]
+
+
+
+
