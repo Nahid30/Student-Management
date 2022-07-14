@@ -117,7 +117,7 @@ const StudentDetails = ({ student, getData , setLoading}) => {
             <p>Phone: {phone}</p>
             <p>Gender: {gender}</p>
             <p>Date of Birth: {birth}</p>
-            <p>Date of Birth: {new Date(birth).toLocaleString()}</p>
+            
             <div class="card-actions justify-end">
               
 
