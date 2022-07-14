@@ -6,7 +6,7 @@ const StudentDetails = ({ student }) => {
   return (
     <div>
       <div className="flex justify-center mx-4">
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card min-w-full bg-base-100 shadow-xl">
           <figure>
             <div class="avatar my-4">
               <div class="w-24 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
